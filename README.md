@@ -12,3 +12,9 @@ For pycharm, go to the bottom left of the screen and click on the extension. and
 ## Exemple of the game
 Soon...
 
+## Licence
+Soon...
+
+### signature
+w1mdra_
+
