@@ -53,7 +53,7 @@ class Spaceship(pygame.sprite.Sprite):
             self.rect.move_ip(5, 0)
             key = "Droite"
         if pressed_keys[K_SPACE]:
-            if len(the_missile.sprites()) < 1 :  #  Limite à un missile à la fois.
+            if len(the_missile.sprites()) < 1:  # Limite à un missile à la fois.
                 missile = Missile(self.rect.center)
                 every_sprite.add(missile)
                 the_missile.add(missile)
@@ -82,6 +82,7 @@ class Spaceship(pygame.sprite.Sprite):
         if border and border != self.last_border:
             print(f"Bord : {border}")
             self.last_border = border
+
 
 # Class définissant les missiles.
 class Missile(pygame.sprite.Sprite):
@@ -130,6 +131,7 @@ class Enemy(pygame.sprite.Sprite):
         if self.rect.right < 0:
             self.kill()
 
+
 # Classe définissant une explosion.
 class Explosion(pygame.sprite.Sprite):
 
@@ -152,13 +154,13 @@ class Explosion(pygame.sprite.Sprite):
             print("Boom!")
             self._boom = True
 
-
         # On décrémente le compteur de l'explosion.
         self._compteur -= 1
 
         # Quand le compteur atteint 0, on supprime l'explosion.
         if self._compteur == 0:
             self.kill()
+
 
 # Gestion de la vitesse de rafraichissement du jeu.
 clock = pygame.time.Clock()
@@ -197,7 +199,6 @@ while continu:
             new_enemy = Enemy()
             the_enemy.add(new_enemy)
             every_sprite.add(new_enemy)
-
 
     # Couleur de fond noire (RVB).
     screen.fill((0, 0, 0))
