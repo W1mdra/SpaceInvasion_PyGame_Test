@@ -5,7 +5,7 @@ This game in python with pygame extension is a test for my experience to introdu
 This game aims to navigate a spaceship and destroy flying objects or other spaceships.
 
 ## Extension
-For pycharm, go to the bottom left of the screen and click on the extension. and choose pygame extension.
+For pycharm, go to the bottom left of the screen and click on the extension. and choose pygame and random extension.
 
 ![image](https://github.com/user-attachments/assets/f8788789-8586-4277-95a6-609186270d33)
 
