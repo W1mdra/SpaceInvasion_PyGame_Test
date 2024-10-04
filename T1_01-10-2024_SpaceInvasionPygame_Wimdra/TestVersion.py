@@ -16,7 +16,7 @@ from pygame import *
 WEIGHT_SCREEN = 800  # Largeur de l'écran.
 HEiGHT_SCREEN = 600  # Hauteur de l'écran.
 # Version du jeu.s
-versions = '0.3'
+versions = '1.0'
 
 
 # Class définissant le vaisseau spatial et ses mouvements.
