@@ -15,7 +15,7 @@ from pygame import *
 #  Définition des dimensions de la fenêtre de jeu.
 WEIGHT_SCREEN = 800  # Largeur de l'écran.
 HEiGHT_SCREEN = 600  # Hauteur de l'écran.
-# Version du jeu.s
+# Version du jeu.
 versions = '0.3'
 
 
@@ -37,51 +37,50 @@ class Spaceship(pygame.sprite.Sprite):
         self.last_border = None
 
     def update(self, pressed_keys):
-        key = None  # Variable pour stocker la direction courante.
-        border = None
+        # key = None  # Variable pour stocker la direction courante.
+        # border = None
         # Mouvements du vaisseau en fonction des touches appuyées.
         if pressed_keys[K_UP] or pressed_keys[K_w]:
             self.rect.move_ip(0, -5)
-            key = "Haut"
+            # key = "Haut"
         if pressed_keys[K_DOWN] or pressed_keys[K_s]:
             self.rect.move_ip(0, 5)
-            key = "Bas"
+            # key = "Bas"
         if pressed_keys[K_LEFT] or pressed_keys[K_a]:
             self.rect.move_ip(-5, 0)
-            key = "Gauche"
+            # key = "Gauche"
         if pressed_keys[K_RIGHT] or pressed_keys[K_d]:
             self.rect.move_ip(5, 0)
-            key = "Droite"
         if pressed_keys[K_SPACE]:
             if len(the_missile.sprites()) < 1:  # Limite à un missile à la fois.
-                bullet = Missile(self.rect.center)
-                every_sprite.add(bullet)
-                the_missile.add(bullet)
-            key = "Space"
+                missile = Missile(self.rect.center)
+                every_sprite.add(missile)
+                the_missile.add(missile)
+            # key = "Space"
 
         # Vérifie si une direction a changé et si c'est différent de la précédente.
-        if key and key != self.last_key:
+        """if key and key != self.last_key:
             print(f"Touche : {key}")
-            self.last_key = key
+            self.last_key = key"""
 
         # Limite les déplacements du vaisseau aux bords de l'écran.
         if self.rect.left < 0:
             self.rect.left = 0
-            border = "Bord Gauche"
+            # border = "Bord Gauche"
         if self.rect.right > WEIGHT_SCREEN:
             self.rect.right = WEIGHT_SCREEN
-            border = "Bord Droite"
+            # border = "Bord Droite"
         if self.rect.top <= 0:
             self.rect.top = 0
-            border = "Bord Haut"
+            # border = "Bord Haut"
         if self.rect.bottom >= HEiGHT_SCREEN:
             self.rect.bottom = HEiGHT_SCREEN
-            border = "Bord Bas"
+            # border = "Bord Bas"
 
         # Vérifie qu'un bord a été toucher.
-        if border and border != self.last_border:
+        """if border and border != self.last_border:
             print(f"Bord : {border}")
-            self.last_border = border
+            self.last_border = border"""
 
 
 # Class définissant les missiles.
@@ -134,6 +133,8 @@ class Enemy(pygame.sprite.Sprite):
 
 # Classe définissant une explosion.
 class Explosion(pygame.sprite.Sprite):
+    #  Score du jeu défini à 0.
+    Score = 0
 
     def __init__(self, center_spaceship):
         super(Explosion, self).__init__()
@@ -164,6 +165,33 @@ class Explosion(pygame.sprite.Sprite):
 
 pygame.font.init()
 
+
+# Class permettant d'afficher le score actuel.
+class Score(pygame.sprite.Sprite):
+    def __init__(self):
+        super(Score, self).__init__()
+        self._scoreCourant = 0
+        self._setText()
+
+    def _setText(self):
+        self.surf = police_score.render(
+            'Score: ' + str(self._scoreCourant), False,(255, 255, 255))
+        self.rect = self.surf.get_rect(
+            center=(WEIGHT_SCREEN / 4, 15)
+        )
+
+    def update(self):
+        self._setText()
+
+    def incremente(self, value):
+        self._scoreCourant = self._scoreCourant + value
+
+
+# Initialisation de font.
+pygame.font.init()
+# Police d'écriture pour le score.
+police_score = pygame.font.SysFont('Arial', 30)
+
 # Gestion de la vitesse de rafraichissement du jeu.
 clock = pygame.time.Clock()
 
@@ -189,6 +217,8 @@ the_explosion = pygame.sprite.Group()
 # Création du vaisseau.
 spaceship = Spaceship()
 every_sprite.add(spaceship)
+score = Score()
+every_sprite.add(score)
 
 continu = True
 while continu:
@@ -220,12 +250,13 @@ while continu:
         )
         if len(touch_enemy_list) > 0:
             missile.kill()
+            score.incremente(len(touch_enemy_list))
         for enemy in touch_enemy_list:
             explosion = Explosion(enemy.rect.center)
             the_explosion.add(explosion)
             every_sprite.add(explosion)
 
-    # PMise à jour des touches pressées.
+    # Mise à jour des touches pressées.
     keyboard_touch = pygame.key.get_pressed()
 
     # Mise a jour des éléments du jeu.
@@ -233,6 +264,7 @@ while continu:
     the_missile.update()
     the_enemy.update()
     the_explosion.update()
+    score.update()
 
     # Affichage des sprites à l'écran.
     for my_sprite in every_sprite:
@@ -243,6 +275,9 @@ while continu:
 
     # Limite de 30 images par seconde.
     clock.tick(30)
+
+# Ajout du délai avant la fermeture de la fenêtre après avoir exploser.
+pygame.time.delay(100)
 
 # Fermeture de Pygame.
 pygame.quit()
