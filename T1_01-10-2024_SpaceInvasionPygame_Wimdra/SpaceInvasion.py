@@ -183,7 +183,7 @@ class Score(pygame.sprite.Sprite):
     def update(self):
         self._setText()
 
-    def incremente(self, value):
+    def increment(self, value):
         self._scoreCourant = self._scoreCourant + value
 
 
@@ -192,7 +192,7 @@ pygame.font.init()
 # Police d'écriture pour le score.
 police_score = pygame.font.SysFont('Arial', 30)
 
-# Gestion de la vitesse de rafraichissement du jeu.
+# Gestion de la vitesse de rafraichissement du jeu.dss
 clock = pygame.time.Clock()
 
 # Initialisation de pygame.
@@ -250,7 +250,7 @@ while continu:
         )
         if len(touch_enemy_list) > 0:
             missile.kill()
-            score.incremente(len(touch_enemy_list))
+            score.increment(len(touch_enemy_list))
         for enemy in touch_enemy_list:
             explosion = Explosion(enemy.rect.center)
             the_explosion.add(explosion)
