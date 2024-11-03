@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d67907b8-f05e-4550-9c65-898e15e3c725" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/.idea/T1_01-10-2024_SpaceInvasionPygame_Wimdra.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/SpaceInvasion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/TestVersion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/ressources/image/spaceship_base/spaceship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SourceCode_SpaceInvasion/ressources/image/spaceship_base/spaceship.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/SpaceInvasion.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/SDL2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/SDL2_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/SDL2_mixer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/SDL2_ttf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/VCRUNTIME140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/VCRUNTIME140_1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_asyncio.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_decimal.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_multiprocessing.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_overlapped.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_queue.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/_wmi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/freetype.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libcrypto-3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libffi-8.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libjpeg-9.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libmodplug-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libogg-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libopus-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libopusfile-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libpng16-16.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libssl-3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libtiff-5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/libwebp-7.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/portmidi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/SDL2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/SDL2_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/SDL2_mixer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/SDL2_ttf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/_freetype.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/base.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/bufferproxy.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/color.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/constants.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/display.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/draw.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/event.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/font.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/freesansbold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/freetype.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/image.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/imageext.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/joystick.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/key.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/libjpeg-9.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/libogg-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/libopus-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/libpng16-16.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/mask.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/math.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/mixer.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/mixer_music.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/mouse.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/pixelarray.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/pixelcopy.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/pygame_icon.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/rect.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/rwobject.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/scrap.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/surface.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/surflock.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/time.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/transform.cp312-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/pygame/zlib1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/python312.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/autocommand-2.2.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/autocommand-2.2.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/autocommand-2.2.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/autocommand-2.2.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_resources-6.4.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_resources-6.4.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_resources-6.4.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_resources-6.4.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_resources-6.4.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_resources-6.4.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/importlib_resources-6.4.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/inflect-7.3.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/inflect-7.3.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/inflect-7.3.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/inflect-7.3.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/inflect-7.3.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/inflect-7.3.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.collections-5.1.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.context-5.3.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.context-5.3.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.context-5.3.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.context-5.3.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.context-5.3.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.context-5.3.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.functools-4.0.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.text-3.12.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.text-3.12.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.text-3.12.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.text-3.12.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.text-3.12.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.text-3.12.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco.text-3.12.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/jaraco/text/Lorem ipsum.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/more_itertools-10.3.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/more_itertools-10.3.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/more_itertools-10.3.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/more_itertools-10.3.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/more_itertools-10.3.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/more_itertools-10.3.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/packaging-24.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/packaging-24.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/packaging-24.1.dist-info/LICENSE.APACHE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/packaging-24.1.dist-info/LICENSE.BSD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/packaging-24.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/packaging-24.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/packaging-24.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/packaging-24.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/platformdirs-4.2.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/platformdirs-4.2.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/platformdirs-4.2.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/platformdirs-4.2.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/platformdirs-4.2.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/platformdirs-4.2.2.dist-info/licenses/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/tomli-2.0.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/tomli-2.0.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/tomli-2.0.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/tomli-2.0.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/tomli-2.0.1.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/tomli-2.0.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typeguard-4.3.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typeguard-4.3.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typeguard-4.3.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typeguard-4.3.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typeguard-4.3.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typeguard-4.3.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typeguard-4.3.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typing_extensions-4.12.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typing_extensions-4.12.2.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typing_extensions-4.12.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typing_extensions-4.12.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/typing_extensions-4.12.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/wheel-0.43.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/wheel-0.43.0.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/wheel-0.43.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/wheel-0.43.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/wheel-0.43.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/wheel-0.43.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/wheel-0.43.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/zipp-3.19.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/zipp-3.19.2.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/zipp-3.19.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/zipp-3.19.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/zipp-3.19.2.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/zipp-3.19.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/setuptools/_vendor/zipp-3.19.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/typeguard-4.3.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/typeguard-4.3.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/typeguard-4.3.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/typeguard-4.3.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/typeguard-4.3.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/typeguard-4.3.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/typeguard-4.3.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/wheel-0.43.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/wheel-0.43.0.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/wheel-0.43.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/wheel-0.43.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/wheel-0.43.0.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/wheel-0.43.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/wheel-0.43.0.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceInvasion/_internal/zlib1.dll" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2nCYRi7TCip35JNX4VCA2nSajza" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.SpaceInvasion.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/SpaceInvasion_PyGame_Test"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c69650fc56ca-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15619.17" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d67907b8-f05e-4550-9c65-898e15e3c725" name="Changes" comment="" />
+      <created>1728478518763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728478518763</updated>
+    </task>
+    <servers />
+  </component>
+</project>
